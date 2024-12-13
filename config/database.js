@@ -1,8 +1,8 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('Event_System', 'event', 'event123', {
-  host: 'localhost',
-  dialect: 'mysql',
+const sequelize = new Sequelize('postgresql_campus_event_management_system', 'postgresql_campus_event_management_system_user', 'XoEZ1oIKPDSyQphBIuazbWr33nB3BE6H', {
+  host: 'dpg-cte5t0ogph6c739fkfu0-a',
+  dialect: 'postgres',
   logging: console.log,
   pool: {
     max: 5,
